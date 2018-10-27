@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_groupPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group permissions"
+        android:onClick="allPermissions"/>
+
+    <Button
+        android:id="@+id/btn_cameraPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera permissions"
+        android:onClick="cameraPermissions"
+        />
+
+    <Button
+        android:id="@+id/btn_storagePermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Storage permissions"
+        android:onClick="storagePermission"/>
+
+    <Button
+        android:id="@+id/btn_contactPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact permissions"
+        android:onClick="contactPermission"/>
+
+
+
+</LinearLayout>
